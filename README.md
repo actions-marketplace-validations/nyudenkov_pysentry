@@ -76,7 +76,7 @@ More examples in the [quickstart guide](https://docs.pysentry.com/getting-starte
 ```yaml
 repos:
   - repo: https://github.com/pysentry/pysentry-pre-commit
-    rev: v0.4.9
+    rev: v0.5.0
     hooks:
       - id: pysentry
         # args: ['--compact']  # terser output for hook runs
@@ -92,7 +92,7 @@ permissions:
 
 steps:
   - uses: actions/checkout@v4
-  - uses: nyudenkov/pysentry@v0.4.9
+  - uses: nyudenkov/pysentry@v0.5.0
     with:
       fail-on: high
 ```
@@ -121,7 +121,7 @@ All options are covered in the [configuration guide](https://docs.pysentry.com/c
 
 ## Documentation
 
-Full documentation lives at [docs.pysentry.com](https://docs.pysentry.com):
+Full documentation lives at [https://docs.pysentry.com](https://docs.pysentry.com):
 [Installation](https://docs.pysentry.com/getting-started/installation) ·
 [Quickstart](https://docs.pysentry.com/getting-started/quickstart) ·
 [CLI options](https://docs.pysentry.com/configuration/cli-options) ·

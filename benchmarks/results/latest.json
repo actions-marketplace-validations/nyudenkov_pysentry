@@ -1,13 +1,13 @@
 {
   "system_info": {
-    "platform": "Linux-6.17.0-1020-azure-x86_64-with-glibc2.39",
-    "python_version": "3.11.15",
+    "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+    "python_version": "3.11.16",
     "cpu_count": 4,
-    "total_memory_gb": 15.614948272705078,
-    "available_memory_gb": 14.60629653930664
+    "total_memory_gb": 15.613975524902344,
+    "available_memory_gb": 14.540771484375
   },
   "tool_versions": {
-    "pysentry": "0.4.9",
+    "pysentry": "0.5.0",
     "pip-audit": "2.10.1"
   },
   "dataset_packages": {
@@ -26,18 +26,18 @@
       "cache_type": "cold",
       "command": "pysentry --format json --resolver uv --sources pypa --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 2.3964290618896484,
-        "peak_memory_mb": 242.88671875,
-        "time_min": 2.200343132019043,
-        "time_stdev": 0.40328227454197074,
-        "mem_min": 242.75,
-        "mem_stdev": 0.1111532343384854,
+        "execution_time": 2.016685962677002,
+        "peak_memory_mb": 254.41796875,
+        "time_min": 1.9625720977783203,
+        "time_stdev": 0.1382487096333932,
+        "mem_min": 254.37890625,
+        "mem_stdev": 0.13288141594340797,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T22:57:43.337135"
+      "timestamp": "2026-08-20T20:09:29.650345"
     },
     {
       "config_name": "pysentry-osv",
@@ -47,18 +47,18 @@
       "cache_type": "cold",
       "command": "pysentry --format json --resolver uv --sources osv --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 0.5456037521362305,
-        "peak_memory_mb": 122.2578125,
-        "time_min": 0.5015029907226562,
-        "time_stdev": 0.02481575104995408,
-        "mem_min": 116.2109375,
-        "mem_stdev": 3.9802582899464576,
+        "execution_time": 0.6862950325012207,
+        "peak_memory_mb": 127.2109375,
+        "time_min": 0.5964291095733643,
+        "time_stdev": 0.06099995053662046,
+        "mem_min": 118.5546875,
+        "mem_stdev": 3.9315256480021135,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T22:57:46.248001"
+      "timestamp": "2026-08-20T20:09:33.163552"
     },
     {
       "config_name": "pysentry-pypi",
@@ -68,18 +68,18 @@
       "cache_type": "cold",
       "command": "pysentry --format json --resolver uv --sources pypi --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 0.3459627628326416,
-        "peak_memory_mb": 120.796875,
-        "time_min": 0.34235501289367676,
-        "time_stdev": 0.04401032174586068,
-        "mem_min": 120.546875,
-        "mem_stdev": 1.4161123350595504,
+        "execution_time": 0.580754280090332,
+        "peak_memory_mb": 126.953125,
+        "time_min": 0.5218687057495117,
+        "time_stdev": 0.09083320375571713,
+        "mem_min": 125.79296875,
+        "mem_stdev": 1.2627583758662275,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T22:57:48.309763"
+      "timestamp": "2026-08-20T20:09:36.320662"
     },
     {
       "config_name": "pysentry-all-sources",
@@ -89,18 +89,18 @@
       "cache_type": "cold",
       "command": "pysentry --format json --resolver uv --sources pypa,osv,pypi --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 2.255535840988159,
-        "peak_memory_mb": 244.265625,
-        "time_min": 2.240797758102417,
-        "time_stdev": 0.032399367104819304,
-        "mem_min": 244.1015625,
-        "mem_stdev": 0.10940987167313217,
+        "execution_time": 2.0960159301757812,
+        "peak_memory_mb": 255.9375,
+        "time_min": 2.0241386890411377,
+        "time_stdev": 0.16646664243195727,
+        "mem_min": 255.39453125,
+        "mem_stdev": 0.34803569531708056,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T22:57:59.827273"
+      "timestamp": "2026-08-20T20:09:47.340685"
     },
     {
       "config_name": "pysentry-pypi-maintenance",
@@ -110,18 +110,18 @@
       "cache_type": "cold",
       "command": "pysentry --format json --resolver uv --sources pypi <path>",
       "metrics": {
-        "execution_time": 0.4514808654785156,
-        "peak_memory_mb": 120.6171875,
-        "time_min": 0.4038264751434326,
-        "time_stdev": 0.03711383230309182,
-        "mem_min": 116.359375,
-        "mem_stdev": 3.9847508630926938,
+        "execution_time": 0.933189868927002,
+        "peak_memory_mb": 127.1015625,
+        "time_min": 0.5958163738250732,
+        "time_stdev": 0.20042598510769882,
+        "mem_min": 125.4296875,
+        "mem_stdev": 1.338946606529446,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T22:58:02.222593"
+      "timestamp": "2026-08-20T20:09:52.005455"
     },
     {
       "config_name": "pip-audit-pypi",
@@ -131,18 +131,18 @@
       "cache_type": "cold",
       "command": "pip-audit --format json -s pypi --requirement <path>",
       "metrics": {
-        "execution_time": 8.786770343780518,
-        "peak_memory_mb": 132.48828125,
-        "time_min": 8.31548547744751,
-        "time_stdev": 0.3872721332375436,
-        "mem_min": 130.5,
-        "mem_stdev": 3.465595632554223,
+        "execution_time": 8.70870852470398,
+        "peak_memory_mb": 139.5390625,
+        "time_min": 7.531944036483765,
+        "time_stdev": 1.816526175659184,
+        "mem_min": 129.82421875,
+        "mem_stdev": 10.847346572933855,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T22:58:46.711304"
+      "timestamp": "2026-08-20T20:10:39.325616"
     },
     {
       "config_name": "pip-audit-osv",
@@ -152,18 +152,18 @@
       "cache_type": "cold",
       "command": "pip-audit --format json -s osv --requirement <path>",
       "metrics": {
-        "execution_time": 12.191243410110474,
-        "peak_memory_mb": 137.2109375,
-        "time_min": 11.76143479347229,
-        "time_stdev": 0.4507980793981003,
-        "mem_min": 128.234375,
-        "mem_stdev": 4.150278031560996,
+        "execution_time": 12.019635438919067,
+        "peak_memory_mb": 135.703125,
+        "time_min": 11.428815841674805,
+        "time_stdev": 0.761825748276477,
+        "mem_min": 125.7890625,
+        "mem_stdev": 5.716093586630058,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T22:59:48.399218"
+      "timestamp": "2026-08-20T20:11:40.872422"
     },
     {
       "config_name": "pysentry-pypa",
@@ -173,18 +173,18 @@
       "cache_type": "hot",
       "command": "pysentry --format json --resolver uv --sources pypa --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 0.8862953186035156,
-        "peak_memory_mb": 328.6015625,
-        "time_min": 0.8798508644104004,
-        "time_stdev": 0.015267554810355802,
-        "mem_min": 327.14453125,
-        "mem_stdev": 0.6788372465651975,
+        "execution_time": 0.8263163566589355,
+        "peak_memory_mb": 341.62890625,
+        "time_min": 0.7965214252471924,
+        "time_stdev": 0.12913465597680918,
+        "mem_min": 341.4609375,
+        "mem_stdev": 0.48170097325697686,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T22:59:56.619693"
+      "timestamp": "2026-08-20T20:11:48.216524"
     },
     {
       "config_name": "pysentry-osv",
@@ -194,18 +194,18 @@
       "cache_type": "hot",
       "command": "pysentry --format json --resolver uv --sources osv --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 0.2274641990661621,
-        "peak_memory_mb": 121.25390625,
-        "time_min": 0.20279216766357422,
-        "time_stdev": 0.013676668715897393,
-        "mem_min": 117.36328125,
-        "mem_stdev": 3.015279135363782,
+        "execution_time": 0.2907066345214844,
+        "peak_memory_mb": 126.8203125,
+        "time_min": 0.23946452140808105,
+        "time_stdev": 0.05047010529665009,
+        "mem_min": 126.52734375,
+        "mem_stdev": 0.9167570127411931,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T22:59:58.466109"
+      "timestamp": "2026-08-20T20:11:50.401170"
     },
     {
       "config_name": "pysentry-pypi",
@@ -215,18 +215,18 @@
       "cache_type": "hot",
       "command": "pysentry --format json --resolver uv --sources pypi --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 0.23150372505187988,
-        "peak_memory_mb": 122.59375,
-        "time_min": 0.22206354141235352,
-        "time_stdev": 0.008972887735972582,
-        "mem_min": 120.53515625,
-        "mem_stdev": 2.0872300390325558,
+        "execution_time": 0.2732808589935303,
+        "peak_memory_mb": 126.92578125,
+        "time_min": 0.2646670341491699,
+        "time_stdev": 0.030124834057409327,
+        "mem_min": 126.28125,
+        "mem_stdev": 1.1687738915923682,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:00:00.199693"
+      "timestamp": "2026-08-20T20:11:52.740379"
     },
     {
       "config_name": "pysentry-all-sources",
@@ -236,18 +236,18 @@
       "cache_type": "hot",
       "command": "pysentry --format json --resolver uv --sources pypa,osv,pypi --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 0.9006876945495605,
-        "peak_memory_mb": 328.60546875,
-        "time_min": 0.8887643814086914,
-        "time_stdev": 0.011625071080562032,
-        "mem_min": 328.53515625,
-        "mem_stdev": 0.08939254908565507,
+        "execution_time": 0.9098467826843262,
+        "peak_memory_mb": 341.49609375,
+        "time_min": 0.8056683540344238,
+        "time_stdev": 0.061054069480995524,
+        "mem_min": 341.41796875,
+        "mem_stdev": 0.11723306405871063,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:00:07.989991"
+      "timestamp": "2026-08-20T20:12:00.119297"
     },
     {
       "config_name": "pysentry-pypi-maintenance",
@@ -257,18 +257,18 @@
       "cache_type": "hot",
       "command": "pysentry --format json --resolver uv --sources pypi <path>",
       "metrics": {
-        "execution_time": 0.2350931167602539,
-        "peak_memory_mb": 122.68359375,
-        "time_min": 0.22982263565063477,
-        "time_stdev": 0.004869921420069571,
-        "mem_min": 118.8125,
-        "mem_stdev": 2.0867445623871514,
+        "execution_time": 0.3287687301635742,
+        "peak_memory_mb": 127.0625,
+        "time_min": 0.23957014083862305,
+        "time_stdev": 0.054922416919073486,
+        "mem_min": 124.41796875,
+        "mem_stdev": 1.468426348150089,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:00:09.936767"
+      "timestamp": "2026-08-20T20:12:02.560448"
     },
     {
       "config_name": "pip-audit-pypi",
@@ -278,18 +278,18 @@
       "cache_type": "hot",
       "command": "pip-audit --format json -s pypi --requirement <path>",
       "metrics": {
-        "execution_time": 7.696131944656372,
-        "peak_memory_mb": 131.58203125,
-        "time_min": 7.685764789581299,
-        "time_stdev": 0.12847719405206473,
-        "mem_min": 127.3359375,
-        "mem_stdev": 2.6033381820158144,
+        "execution_time": 5.163617849349976,
+        "peak_memory_mb": 138.1171875,
+        "time_min": 5.1242356300354,
+        "time_stdev": 0.12467956363041467,
+        "mem_min": 128.5078125,
+        "mem_stdev": 4.679905631915329,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:00:57.280489"
+      "timestamp": "2026-08-20T20:12:36.561451"
     },
     {
       "config_name": "pip-audit-osv",
@@ -299,18 +299,18 @@
       "cache_type": "hot",
       "command": "pip-audit --format json -s osv --requirement <path>",
       "metrics": {
-        "execution_time": 11.492783069610596,
-        "peak_memory_mb": 137.23828125,
-        "time_min": 11.108059644699097,
-        "time_stdev": 0.4027996898422512,
-        "mem_min": 129.2421875,
-        "mem_stdev": 3.747810843760057,
+        "execution_time": 8.338402509689331,
+        "peak_memory_mb": 135.48046875,
+        "time_min": 8.197727680206299,
+        "time_stdev": 0.10857881172789662,
+        "mem_min": 130.24609375,
+        "mem_stdev": 4.161415595772932,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:02:08.726685"
+      "timestamp": "2026-08-20T20:13:29.926692"
     },
     {
       "config_name": "pysentry-pypa",
@@ -320,18 +320,18 @@
       "cache_type": "cold",
       "command": "pysentry --format json --resolver uv --sources pypa --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 2.740978956222534,
-        "peak_memory_mb": 242.75,
-        "time_min": 2.728578805923462,
-        "time_stdev": 0.10999625055337997,
-        "mem_min": 242.6953125,
-        "mem_stdev": 0.11863043940044962,
+        "execution_time": 2.767465829849243,
+        "peak_memory_mb": 254.49609375,
+        "time_min": 2.4521851539611816,
+        "time_stdev": 0.32954582324842074,
+        "mem_min": 253.94921875,
+        "mem_stdev": 0.303591277170835,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:02:22.812306"
+      "timestamp": "2026-08-20T20:13:44.105014"
     },
     {
       "config_name": "pysentry-osv",
@@ -341,18 +341,18 @@
       "cache_type": "cold",
       "command": "pysentry --format json --resolver uv --sources osv --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 1.1604361534118652,
-        "peak_memory_mb": 191.46875,
-        "time_min": 1.139343023300171,
-        "time_stdev": 0.011432367472802761,
-        "mem_min": 189.79296875,
-        "mem_stdev": 3.881643789466105,
+        "execution_time": 1.4816474914550781,
+        "peak_memory_mb": 194.625,
+        "time_min": 1.1869678497314453,
+        "time_stdev": 0.32997468902031546,
+        "mem_min": 188.59375,
+        "mem_stdev": 3.0761062741021012,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:02:28.727159"
+      "timestamp": "2026-08-20T20:13:51.951920"
     },
     {
       "config_name": "pysentry-pypi",
@@ -362,18 +362,18 @@
       "cache_type": "cold",
       "command": "pysentry --format json --resolver uv --sources pypi --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 0.9850709438323975,
-        "peak_memory_mb": 192.58984375,
-        "time_min": 0.9502196311950684,
-        "time_stdev": 0.10455918794932981,
-        "mem_min": 187.5546875,
-        "mem_stdev": 2.395978291866948,
+        "execution_time": 1.290698528289795,
+        "peak_memory_mb": 195.28125,
+        "time_min": 1.2203505039215088,
+        "time_stdev": 0.11585689102951371,
+        "mem_min": 192.77734375,
+        "mem_stdev": 2.3247839386334648,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:02:34.015341"
+      "timestamp": "2026-08-20T20:13:58.728350"
     },
     {
       "config_name": "pysentry-all-sources",
@@ -383,18 +383,18 @@
       "cache_type": "cold",
       "command": "pysentry --format json --resolver uv --sources pypa,osv,pypi --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 2.797002077102661,
-        "peak_memory_mb": 245.42578125,
-        "time_min": 2.7298338413238525,
-        "time_stdev": 0.0886111018043178,
-        "mem_min": 245.30859375,
-        "mem_stdev": 0.22976255682667543,
+        "execution_time": 2.851865291595459,
+        "peak_memory_mb": 256.6484375,
+        "time_min": 2.693613052368164,
+        "time_stdev": 0.11877125689798294,
+        "mem_min": 255.95703125,
+        "mem_stdev": 0.4661762021648507,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:02:48.223808"
+      "timestamp": "2026-08-20T20:14:13.180372"
     },
     {
       "config_name": "pysentry-pypi-maintenance",
@@ -404,18 +404,18 @@
       "cache_type": "cold",
       "command": "pysentry --format json --resolver uv --sources pypi <path>",
       "metrics": {
-        "execution_time": 1.3196849822998047,
-        "peak_memory_mb": 191.44140625,
-        "time_min": 1.2048463821411133,
-        "time_stdev": 0.05649503405861207,
-        "mem_min": 187.68359375,
-        "mem_stdev": 2.9819791593891547,
+        "execution_time": 1.9656281471252441,
+        "peak_memory_mb": 197.546875,
+        "time_min": 1.7216501235961914,
+        "time_stdev": 0.1794059994971402,
+        "mem_min": 194.7421875,
+        "mem_stdev": 3.2404993722635753,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:02:54.795913"
+      "timestamp": "2026-08-20T20:14:23.206080"
     },
     {
       "config_name": "pip-audit-pypi",
@@ -425,18 +425,18 @@
       "cache_type": "cold",
       "command": "pip-audit --format json -s pypi --requirement <path>",
       "metrics": {
-        "execution_time": 21.947890996932983,
-        "peak_memory_mb": 202.96484375,
-        "time_min": 18.15063977241516,
-        "time_stdev": 4.4551908296562885,
-        "mem_min": 202.83984375,
-        "mem_stdev": 0.12047472828875772,
+        "execution_time": 24.879328727722168,
+        "peak_memory_mb": 206.4375,
+        "time_min": 19.681972980499268,
+        "time_stdev": 2.6838135319112486,
+        "mem_min": 206.16796875,
+        "mem_stdev": 0.20848911818688223,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:04:49.420392"
+      "timestamp": "2026-08-20T20:16:22.244637"
     },
     {
       "config_name": "pip-audit-osv",
@@ -446,18 +446,18 @@
       "cache_type": "cold",
       "command": "pip-audit --format json -s osv --requirement <path>",
       "metrics": {
-        "execution_time": 35.65001821517944,
-        "peak_memory_mb": 203.01953125,
-        "time_min": 34.61932420730591,
-        "time_stdev": 3.9119914945418093,
-        "mem_min": 202.796875,
-        "mem_stdev": 0.2024214076364732,
+        "execution_time": 35.66966533660889,
+        "peak_memory_mb": 206.2890625,
+        "time_min": 32.23731994628906,
+        "time_stdev": 3.1598426273147964,
+        "mem_min": 206.0234375,
+        "mem_stdev": 0.21102067226007443,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:07:58.490102"
+      "timestamp": "2026-08-20T20:19:23.108144"
     },
     {
       "config_name": "pysentry-pypa",
@@ -467,18 +467,18 @@
       "cache_type": "hot",
       "command": "pysentry --format json --resolver uv --sources pypa --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 1.3871822357177734,
-        "peak_memory_mb": 328.671875,
-        "time_min": 1.3739140033721924,
-        "time_stdev": 0.009245099068660877,
-        "mem_min": 328.5625,
-        "mem_stdev": 0.671581967348132,
+        "execution_time": 1.2882862091064453,
+        "peak_memory_mb": 341.6484375,
+        "time_min": 1.1572022438049316,
+        "time_stdev": 0.09295383777953695,
+        "mem_min": 341.56640625,
+        "mem_stdev": 0.09119232445256838,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:08:09.053696"
+      "timestamp": "2026-08-20T20:19:32.925299"
     },
     {
       "config_name": "pysentry-osv",
@@ -488,18 +488,18 @@
       "cache_type": "hot",
       "command": "pysentry --format json --resolver uv --sources osv --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 0.742051362991333,
-        "peak_memory_mb": 191.50390625,
-        "time_min": 0.7238414287567139,
-        "time_stdev": 0.010093383739845507,
-        "mem_min": 189.68359375,
-        "mem_stdev": 2.4835604501935573,
+        "execution_time": 0.6908531188964844,
+        "peak_memory_mb": 193.26171875,
+        "time_min": 0.6310975551605225,
+        "time_stdev": 0.09783433645407777,
+        "mem_min": 188.91796875,
+        "mem_stdev": 3.3924133928413984,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:08:13.962642"
+      "timestamp": "2026-08-20T20:19:38.036566"
     },
     {
       "config_name": "pysentry-pypi",
@@ -509,18 +509,18 @@
       "cache_type": "hot",
       "command": "pysentry --format json --resolver uv --sources pypi --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 0.7490923404693604,
-        "peak_memory_mb": 191.21484375,
-        "time_min": 0.7267684936523438,
-        "time_stdev": 0.014272894527124994,
-        "mem_min": 185.5625,
-        "mem_stdev": 2.9170291639039894,
+        "execution_time": 0.669921875,
+        "peak_memory_mb": 194.66796875,
+        "time_min": 0.6296641826629639,
+        "time_stdev": 0.01948585966518593,
+        "mem_min": 187.28125,
+        "mem_stdev": 3.9331101909208925,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:08:18.762988"
+      "timestamp": "2026-08-20T20:19:42.680884"
     },
     {
       "config_name": "pysentry-all-sources",
@@ -530,18 +530,18 @@
       "cache_type": "hot",
       "command": "pysentry --format json --resolver uv --sources pypa,osv,pypi --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 1.420769214630127,
-        "peak_memory_mb": 328.62890625,
-        "time_min": 1.389875888824463,
-        "time_stdev": 0.014812916875642967,
-        "mem_min": 327.05859375,
-        "mem_stdev": 0.7235035151440394,
+        "execution_time": 1.2765324115753174,
+        "peak_memory_mb": 341.5078125,
+        "time_min": 1.2241053581237793,
+        "time_stdev": 0.05695068555504376,
+        "mem_min": 341.4453125,
+        "mem_stdev": 1.8118192249252114,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:08:29.312581"
+      "timestamp": "2026-08-20T20:19:52.234887"
     },
     {
       "config_name": "pysentry-pypi-maintenance",
@@ -551,18 +551,18 @@
       "cache_type": "hot",
       "command": "pysentry --format json --resolver uv --sources pypi <path>",
       "metrics": {
-        "execution_time": 0.775388240814209,
-        "peak_memory_mb": 191.546875,
-        "time_min": 0.7547605037689209,
-        "time_stdev": 0.009945328257594376,
-        "mem_min": 191.33203125,
-        "mem_stdev": 0.9955168366093344,
+        "execution_time": 0.6489236354827881,
+        "peak_memory_mb": 191.55859375,
+        "time_min": 0.627938985824585,
+        "time_stdev": 0.08146814245979953,
+        "mem_min": 189.625,
+        "mem_stdev": 1.299170243945691,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:08:34.743362"
+      "timestamp": "2026-08-20T20:19:57.268767"
     },
     {
       "config_name": "pip-audit-pypi",
@@ -572,18 +572,18 @@
       "cache_type": "hot",
       "command": "pip-audit --format json -s pypi --requirement <path>",
       "metrics": {
-        "execution_time": 13.612431764602661,
-        "peak_memory_mb": 201.93359375,
-        "time_min": 13.339613199234009,
-        "time_stdev": 0.1720479249085472,
-        "mem_min": 201.88671875,
-        "mem_stdev": 0.13432616300038594,
+        "execution_time": 8.385482788085938,
+        "peak_memory_mb": 205.05078125,
+        "time_min": 8.220177412033081,
+        "time_stdev": 0.17369065155414556,
+        "mem_min": 204.8828125,
+        "mem_stdev": 0.12360673722852347,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:10:00.596050"
+      "timestamp": "2026-08-20T20:20:59.662224"
     },
     {
       "config_name": "pip-audit-osv",
@@ -593,18 +593,18 @@
       "cache_type": "hot",
       "command": "pip-audit --format json -s osv --requirement <path>",
       "metrics": {
-        "execution_time": 31.10746693611145,
-        "peak_memory_mb": 202.15234375,
-        "time_min": 30.849666357040405,
-        "time_stdev": 0.38215570357269046,
-        "mem_min": 201.7734375,
-        "mem_stdev": 0.19131853857670197,
+        "execution_time": 24.66069507598877,
+        "peak_memory_mb": 205.21484375,
+        "time_min": 23.32578134536743,
+        "time_stdev": 1.0934103945375575,
+        "mem_min": 204.99609375,
+        "mem_stdev": 0.12369928727310842,
         "raw_vulns": 0,
         "canonical_vulns": 0,
         "exit_code": 0,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:13:19.187821"
+      "timestamp": "2026-08-20T20:23:38.866494"
     },
     {
       "config_name": "pysentry-pypa",
@@ -614,18 +614,18 @@
       "cache_type": "cold",
       "command": "pysentry --format json --no-resolver --sources pypa --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 2.139129638671875,
-        "peak_memory_mb": 243.08984375,
-        "time_min": 2.010991334915161,
-        "time_stdev": 0.0733933001202955,
-        "mem_min": 242.80078125,
-        "mem_stdev": 0.14225938258545112,
-        "raw_vulns": 92,
-        "canonical_vulns": 92,
+        "execution_time": 1.9598300457000732,
+        "peak_memory_mb": 254.97265625,
+        "time_min": 1.7371132373809814,
+        "time_stdev": 0.13777027676084688,
+        "mem_min": 254.80859375,
+        "mem_stdev": 0.09672998218300777,
+        "raw_vulns": 100,
+        "canonical_vulns": 100,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:13:30.023691"
+      "timestamp": "2026-08-20T20:23:48.574169"
     },
     {
       "config_name": "pysentry-osv",
@@ -635,18 +635,18 @@
       "cache_type": "cold",
       "command": "pysentry --format json --no-resolver --sources osv --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 2.2467799186706543,
-        "peak_memory_mb": 18.3203125,
-        "time_min": 2.2017300128936768,
-        "time_stdev": 0.13795455053454483,
-        "mem_min": 18.23046875,
-        "mem_stdev": 0.11040253938712188,
-        "raw_vulns": 95,
-        "canonical_vulns": 95,
+        "execution_time": 2.7827961444854736,
+        "peak_memory_mb": 20.74609375,
+        "time_min": 2.637803316116333,
+        "time_stdev": 0.4444826334506749,
+        "mem_min": 20.609375,
+        "mem_stdev": 0.10656261455272435,
+        "raw_vulns": 103,
+        "canonical_vulns": 103,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:13:41.800238"
+      "timestamp": "2026-08-20T20:24:03.544998"
     },
     {
       "config_name": "pysentry-pypi",
@@ -656,18 +656,18 @@
       "cache_type": "cold",
       "command": "pysentry --format json --no-resolver --sources pypi --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 0.24922561645507812,
-        "peak_memory_mb": 15.14453125,
-        "time_min": 0.2428748607635498,
-        "time_stdev": 0.31107352987412173,
-        "mem_min": 14.75390625,
-        "mem_stdev": 0.38342584792809026,
-        "raw_vulns": 96,
-        "canonical_vulns": 95,
+        "execution_time": 0.5405435562133789,
+        "peak_memory_mb": 15.484375,
+        "time_min": 0.4643673896789551,
+        "time_stdev": 0.1527965216755697,
+        "mem_min": 15.0546875,
+        "mem_stdev": 0.22476387349421836,
+        "raw_vulns": 104,
+        "canonical_vulns": 103,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:13:44.157174"
+      "timestamp": "2026-08-20T20:24:06.743819"
     },
     {
       "config_name": "pysentry-all-sources",
@@ -677,18 +677,18 @@
       "cache_type": "cold",
       "command": "pysentry --format json --no-resolver --sources pypa,osv,pypi --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 3.521880865097046,
-        "peak_memory_mb": 250.3671875,
-        "time_min": 3.4445300102233887,
-        "time_stdev": 0.06114910441009965,
-        "mem_min": 250.30078125,
-        "mem_stdev": 0.1301021702625719,
-        "raw_vulns": 96,
-        "canonical_vulns": 96,
+        "execution_time": 3.352405071258545,
+        "peak_memory_mb": 263.69921875,
+        "time_min": 3.1777493953704834,
+        "time_stdev": 0.3635828709434156,
+        "mem_min": 263.296875,
+        "mem_stdev": 0.2738974925511025,
+        "raw_vulns": 104,
+        "canonical_vulns": 104,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:14:01.913444"
+      "timestamp": "2026-08-20T20:24:24.177715"
     },
     {
       "config_name": "pysentry-pypi-maintenance",
@@ -698,18 +698,18 @@
       "cache_type": "cold",
       "command": "pysentry --format json --no-resolver --sources pypi <path>",
       "metrics": {
-        "execution_time": 0.595761775970459,
-        "peak_memory_mb": 45.15625,
-        "time_min": 0.43047475814819336,
-        "time_stdev": 0.12671944160458748,
-        "mem_min": 37.8671875,
-        "mem_stdev": 5.784782757187306,
-        "raw_vulns": 96,
-        "canonical_vulns": 95,
+        "execution_time": 0.7759830951690674,
+        "peak_memory_mb": 43.3203125,
+        "time_min": 0.6830952167510986,
+        "time_stdev": 0.2839352544018436,
+        "mem_min": 38.97265625,
+        "mem_stdev": 4.539935271352049,
+        "raw_vulns": 104,
+        "canonical_vulns": 103,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:14:04.930882"
+      "timestamp": "2026-08-20T20:24:28.737070"
     },
     {
       "config_name": "pip-audit-pypi",
@@ -719,18 +719,18 @@
       "cache_type": "cold",
       "command": "pip-audit --format json -s pypi --no-deps --disable-pip --requirement <path>",
       "metrics": {
-        "execution_time": 4.309127569198608,
-        "peak_memory_mb": 59.9921875,
-        "time_min": 2.800055980682373,
-        "time_stdev": 2.995340806172134,
-        "mem_min": 59.734375,
-        "mem_stdev": 0.17944106742796506,
-        "raw_vulns": 135,
-        "canonical_vulns": 95,
+        "execution_time": 5.063432693481445,
+        "peak_memory_mb": 56.67578125,
+        "time_min": 4.1567299365997314,
+        "time_stdev": 1.0906517746085311,
+        "mem_min": 53.2265625,
+        "mem_stdev": 1.6306275565031225,
+        "raw_vulns": 143,
+        "canonical_vulns": 103,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:14:33.460000"
+      "timestamp": "2026-08-20T20:24:55.670716"
     },
     {
       "config_name": "pip-audit-osv",
@@ -740,18 +740,18 @@
       "cache_type": "cold",
       "command": "pip-audit --format json -s osv --no-deps --disable-pip --requirement <path>",
       "metrics": {
-        "execution_time": 30.185309886932373,
-        "peak_memory_mb": 59.671875,
-        "time_min": 28.99458146095276,
-        "time_stdev": 0.6384786927380716,
-        "mem_min": 58.11328125,
-        "mem_stdev": 0.8289933168811398,
-        "raw_vulns": 176,
-        "canonical_vulns": 95,
+        "execution_time": 27.00623917579651,
+        "peak_memory_mb": 56.89453125,
+        "time_min": 24.159672498703003,
+        "time_stdev": 1.9190404226417284,
+        "mem_min": 55.15625,
+        "mem_stdev": 0.7918586364356054,
+        "raw_vulns": 198,
+        "canonical_vulns": 103,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:17:03.473733"
+      "timestamp": "2026-08-20T20:27:08.631516"
     },
     {
       "config_name": "pysentry-pypa",
@@ -761,18 +761,18 @@
       "cache_type": "hot",
       "command": "pysentry --format json --no-resolver --sources pypa --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 0.68753981590271,
-        "peak_memory_mb": 328.66796875,
-        "time_min": 0.6822998523712158,
-        "time_stdev": 0.006296588047314275,
-        "mem_min": 328.453125,
-        "mem_stdev": 0.10052808560841965,
-        "raw_vulns": 92,
-        "canonical_vulns": 92,
+        "execution_time": 0.5830388069152832,
+        "peak_memory_mb": 341.71484375,
+        "time_min": 0.5820949077606201,
+        "time_stdev": 0.0011875125030523285,
+        "mem_min": 341.54296875,
+        "mem_stdev": 0.09396946967216932,
+        "raw_vulns": 100,
+        "canonical_vulns": 100,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:17:09.716818"
+      "timestamp": "2026-08-20T20:27:14.641098"
     },
     {
       "config_name": "pysentry-osv",
@@ -782,18 +782,18 @@
       "cache_type": "hot",
       "command": "pysentry --format json --no-resolver --sources osv --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 0.03751564025878906,
-        "peak_memory_mb": 7.44140625,
-        "time_min": 0.036583900451660156,
-        "time_stdev": 0.0010218474221976635,
-        "mem_min": 7.046875,
-        "mem_stdev": 0.2281163044147519,
-        "raw_vulns": 95,
-        "canonical_vulns": 95,
+        "execution_time": 0.030150651931762695,
+        "peak_memory_mb": 7.671875,
+        "time_min": 0.02929234504699707,
+        "time_stdev": 0.0015578836037258561,
+        "mem_min": 7.62109375,
+        "mem_stdev": 0.07689460814464659,
+        "raw_vulns": 103,
+        "canonical_vulns": 103,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:17:12.273476"
+      "timestamp": "2026-08-20T20:27:18.649210"
     },
     {
       "config_name": "pysentry-pypi",
@@ -803,18 +803,18 @@
       "cache_type": "hot",
       "command": "pysentry --format json --no-resolver --sources pypi --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 0.018445730209350586,
-        "peak_memory_mb": 7.07421875,
-        "time_min": 0.018288850784301758,
-        "time_stdev": 0.0004359291095614104,
-        "mem_min": 6.9609375,
-        "mem_stdev": 0.18852664894725427,
-        "raw_vulns": 96,
-        "canonical_vulns": 95,
+        "execution_time": 0.010923385620117188,
+        "peak_memory_mb": 7.7578125,
+        "time_min": 0.01085519790649414,
+        "time_stdev": 0.0004233910338929569,
+        "mem_min": 7.46875,
+        "mem_stdev": 0.1467419610234237,
+        "raw_vulns": 104,
+        "canonical_vulns": 103,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:17:12.777843"
+      "timestamp": "2026-08-20T20:27:19.845983"
     },
     {
       "config_name": "pysentry-all-sources",
@@ -824,18 +824,18 @@
       "cache_type": "hot",
       "command": "pysentry --format json --no-resolver --sources pypa,osv,pypi --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 0.7180829048156738,
-        "peak_memory_mb": 335.1875,
-        "time_min": 0.708904504776001,
-        "time_stdev": 0.010506595452681743,
-        "mem_min": 335.0234375,
-        "mem_stdev": 0.824087296981864,
-        "raw_vulns": 96,
-        "canonical_vulns": 96,
+        "execution_time": 0.6233878135681152,
+        "peak_memory_mb": 353.0546875,
+        "time_min": 0.6212952136993408,
+        "time_stdev": 0.006597367418850599,
+        "mem_min": 353.0,
+        "mem_stdev": 0.08368861439698652,
+        "raw_vulns": 104,
+        "canonical_vulns": 104,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:17:20.425207"
+      "timestamp": "2026-08-20T20:27:30.458543"
     },
     {
       "config_name": "pysentry-pypi-maintenance",
@@ -845,18 +845,18 @@
       "cache_type": "hot",
       "command": "pysentry --format json --no-resolver --sources pypi <path>",
       "metrics": {
-        "execution_time": 0.03358960151672363,
-        "peak_memory_mb": 7.09765625,
-        "time_min": 0.029847383499145508,
-        "time_stdev": 0.0056613136112322205,
-        "mem_min": 6.9765625,
-        "mem_stdev": 0.10105794139765192,
-        "raw_vulns": 96,
-        "canonical_vulns": 95,
+        "execution_time": 0.02088165283203125,
+        "peak_memory_mb": 7.5234375,
+        "time_min": 0.018217086791992188,
+        "time_stdev": 0.0031085540092195604,
+        "mem_min": 7.40625,
+        "mem_stdev": 0.12130148512268409,
+        "raw_vulns": 104,
+        "canonical_vulns": 103,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:17:21.322489"
+      "timestamp": "2026-08-20T20:27:32.540062"
     },
     {
       "config_name": "pip-audit-pypi",
@@ -866,18 +866,18 @@
       "cache_type": "hot",
       "command": "pip-audit --format json -s pypi --no-deps --disable-pip --requirement <path>",
       "metrics": {
-        "execution_time": 0.7676324844360352,
-        "peak_memory_mb": 59.8671875,
-        "time_min": 0.7479043006896973,
-        "time_stdev": 0.008951421523794969,
-        "mem_min": 58.7109375,
-        "mem_stdev": 0.5430277620809317,
-        "raw_vulns": 135,
-        "canonical_vulns": 95,
+        "execution_time": 0.5070145130157471,
+        "peak_memory_mb": 56.87109375,
+        "time_min": 0.4954719543457031,
+        "time_stdev": 0.00692905833764868,
+        "mem_min": 56.6953125,
+        "mem_stdev": 0.20508742538434982,
+        "raw_vulns": 143,
+        "canonical_vulns": 103,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:17:28.319477"
+      "timestamp": "2026-08-20T20:27:43.321195"
     },
     {
       "config_name": "pip-audit-osv",
@@ -887,18 +887,18 @@
       "cache_type": "hot",
       "command": "pip-audit --format json -s osv --no-deps --disable-pip --requirement <path>",
       "metrics": {
-        "execution_time": 29.23902153968811,
-        "peak_memory_mb": 59.2109375,
-        "time_min": 28.88871955871582,
-        "time_stdev": 0.20420734682677977,
-        "mem_min": 58.17578125,
-        "mem_stdev": 0.5423177864895902,
-        "raw_vulns": 176,
-        "canonical_vulns": 95,
+        "execution_time": 28.319595098495483,
+        "peak_memory_mb": 56.7734375,
+        "time_min": 25.943039894104004,
+        "time_stdev": 2.1602103014956153,
+        "mem_min": 53.3046875,
+        "mem_stdev": 1.572738428522296,
+        "raw_vulns": 198,
+        "canonical_vulns": 103,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:20:23.854439"
+      "timestamp": "2026-08-20T20:30:30.466211"
     },
     {
       "config_name": "pysentry-pypa",
@@ -908,18 +908,18 @@
       "cache_type": "cold",
       "command": "pysentry --format json --no-resolver --sources pypa --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 2.141726016998291,
-        "peak_memory_mb": 243.14453125,
-        "time_min": 2.0765202045440674,
-        "time_stdev": 0.17539610365746733,
-        "mem_min": 242.9453125,
-        "mem_stdev": 0.12490841371343345,
-        "raw_vulns": 14,
-        "canonical_vulns": 14,
+        "execution_time": 2.0011894702911377,
+        "peak_memory_mb": 255.109375,
+        "time_min": 1.7491021156311035,
+        "time_stdev": 0.19821098893323652,
+        "mem_min": 254.78515625,
+        "mem_stdev": 0.2398354792955084,
+        "raw_vulns": 23,
+        "canonical_vulns": 23,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:20:35.055445"
+      "timestamp": "2026-08-20T20:30:40.586286"
     },
     {
       "config_name": "pysentry-osv",
@@ -929,18 +929,18 @@
       "cache_type": "cold",
       "command": "pysentry --format json --no-resolver --sources osv --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 1.6130309104919434,
-        "peak_memory_mb": 19.01953125,
-        "time_min": 1.3671951293945312,
-        "time_stdev": 0.1650446002040816,
-        "mem_min": 18.92578125,
-        "mem_stdev": 0.06346905003621844,
-        "raw_vulns": 15,
-        "canonical_vulns": 15,
+        "execution_time": 1.8628466129302979,
+        "peak_memory_mb": 20.78515625,
+        "time_min": 1.6172521114349365,
+        "time_stdev": 1.9310205516163534,
+        "mem_min": 20.30078125,
+        "mem_stdev": 0.2543955621680167,
+        "raw_vulns": 30,
+        "canonical_vulns": 30,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:20:43.255798"
+      "timestamp": "2026-08-20T20:30:53.851096"
     },
     {
       "config_name": "pysentry-pypi",
@@ -950,18 +950,18 @@
       "cache_type": "cold",
       "command": "pysentry --format json --no-resolver --sources pypi --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 0.4936099052429199,
-        "peak_memory_mb": 14.86328125,
-        "time_min": 0.38090944290161133,
-        "time_stdev": 1.0819445813565562,
-        "mem_min": 13.95703125,
-        "mem_stdev": 0.4651308855823877,
-        "raw_vulns": 15,
-        "canonical_vulns": 15,
+        "execution_time": 1.2056076526641846,
+        "peak_memory_mb": 14.92578125,
+        "time_min": 0.8467996120452881,
+        "time_stdev": 0.45941078957148573,
+        "mem_min": 14.8203125,
+        "mem_stdev": 0.2206149574998401,
+        "raw_vulns": 29,
+        "canonical_vulns": 29,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:20:48.941925"
+      "timestamp": "2026-08-20T20:31:00.449738"
     },
     {
       "config_name": "pysentry-all-sources",
@@ -971,18 +971,18 @@
       "cache_type": "cold",
       "command": "pysentry --format json --no-resolver --sources pypa,osv,pypi --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 2.4767298698425293,
-        "peak_memory_mb": 251.02734375,
-        "time_min": 2.4180281162261963,
-        "time_stdev": 0.17803913331605503,
-        "mem_min": 250.70703125,
-        "mem_stdev": 0.2717498140308126,
-        "raw_vulns": 15,
-        "canonical_vulns": 15,
+        "execution_time": 2.496957778930664,
+        "peak_memory_mb": 263.66015625,
+        "time_min": 2.2732019424438477,
+        "time_stdev": 0.1664300686089084,
+        "mem_min": 263.546875,
+        "mem_stdev": 0.06801812143649662,
+        "raw_vulns": 30,
+        "canonical_vulns": 30,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:21:01.921428"
+      "timestamp": "2026-08-20T20:31:13.046553"
     },
     {
       "config_name": "pysentry-pypi-maintenance",
@@ -992,18 +992,18 @@
       "cache_type": "cold",
       "command": "pysentry --format json --no-resolver --sources pypi <path>",
       "metrics": {
-        "execution_time": 1.03916597366333,
-        "peak_memory_mb": 42.9609375,
-        "time_min": 0.7430720329284668,
-        "time_stdev": 0.6092791568558307,
-        "mem_min": 41.4296875,
-        "mem_stdev": 3.0779135694359527,
-        "raw_vulns": 15,
-        "canonical_vulns": 15,
+        "execution_time": 2.636186361312866,
+        "peak_memory_mb": 46.015625,
+        "time_min": 1.6262884140014648,
+        "time_stdev": 0.7260710118341275,
+        "mem_min": 41.50390625,
+        "mem_stdev": 3.343823697712952,
+        "raw_vulns": 29,
+        "canonical_vulns": 29,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:21:08.558332"
+      "timestamp": "2026-08-20T20:31:26.368144"
     },
     {
       "config_name": "pip-audit-pypi",
@@ -1013,18 +1013,18 @@
       "cache_type": "cold",
       "command": "pip-audit --format json -s pypi --no-deps --disable-pip --requirement <path>",
       "metrics": {
-        "execution_time": 21.392980575561523,
-        "peak_memory_mb": 58.93359375,
-        "time_min": 4.457973480224609,
-        "time_stdev": 14.211060543299226,
-        "mem_min": 58.625,
-        "mem_stdev": 0.5608945187223819,
-        "raw_vulns": 16,
-        "canonical_vulns": 15,
+        "execution_time": 18.76556706428528,
+        "peak_memory_mb": 56.96875,
+        "time_min": 13.350903749465942,
+        "time_stdev": 11.79191113166859,
+        "mem_min": 55.2265625,
+        "mem_stdev": 0.809096499804624,
+        "raw_vulns": 30,
+        "canonical_vulns": 29,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:22:47.835532"
+      "timestamp": "2026-08-20T20:33:28.480000"
     },
     {
       "config_name": "pip-audit-osv",
@@ -1034,18 +1034,18 @@
       "cache_type": "cold",
       "command": "pip-audit --format json -s osv --no-deps --disable-pip --requirement <path>",
       "metrics": {
-        "execution_time": 106.23261380195618,
-        "peak_memory_mb": 59.671875,
-        "time_min": 102.86980605125427,
-        "time_stdev": 4.50776991963348,
-        "mem_min": 58.33984375,
-        "mem_stdev": 0.6344945334581545,
-        "raw_vulns": 28,
-        "canonical_vulns": 15,
+        "execution_time": 100.6460874080658,
+        "peak_memory_mb": 57.03515625,
+        "time_min": 80.33366227149963,
+        "time_stdev": 9.938016928716614,
+        "mem_min": 56.73828125,
+        "mem_stdev": 0.17506363937731687,
+        "raw_vulns": 49,
+        "canonical_vulns": 30,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:31:45.897663"
+      "timestamp": "2026-08-20T20:41:30.965176"
     },
     {
       "config_name": "pysentry-pypa",
@@ -1055,18 +1055,18 @@
       "cache_type": "hot",
       "command": "pysentry --format json --no-resolver --sources pypa --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 0.6800086498260498,
-        "peak_memory_mb": 328.82421875,
-        "time_min": 0.6767451763153076,
-        "time_stdev": 0.003903293155546739,
-        "mem_min": 328.69140625,
-        "mem_stdev": 0.07465946453418515,
-        "raw_vulns": 14,
-        "canonical_vulns": 14,
+        "execution_time": 0.5690159797668457,
+        "peak_memory_mb": 341.84375,
+        "time_min": 0.5688028335571289,
+        "time_stdev": 0.0022662213468356493,
+        "mem_min": 341.74609375,
+        "mem_stdev": 0.05269819360637516,
+        "raw_vulns": 23,
+        "canonical_vulns": 23,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:31:52.238123"
+      "timestamp": "2026-08-20T20:41:36.397272"
     },
     {
       "config_name": "pysentry-osv",
@@ -1076,18 +1076,18 @@
       "cache_type": "hot",
       "command": "pysentry --format json --no-resolver --sources osv --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 0.06025576591491699,
-        "peak_memory_mb": 7.3125,
-        "time_min": 0.05859947204589844,
-        "time_stdev": 0.0008716080999877329,
-        "mem_min": 7.15234375,
-        "mem_stdev": 0.14195873595817818,
-        "raw_vulns": 15,
-        "canonical_vulns": 15,
+        "execution_time": 0.0425112247467041,
+        "peak_memory_mb": 7.56640625,
+        "time_min": 0.04142403602600098,
+        "time_stdev": 0.0010659747917069614,
+        "mem_min": 7.46875,
+        "mem_stdev": 0.0828180275277898,
+        "raw_vulns": 30,
+        "canonical_vulns": 30,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:31:54.275391"
+      "timestamp": "2026-08-20T20:41:38.595487"
     },
     {
       "config_name": "pysentry-pypi",
@@ -1097,18 +1097,18 @@
       "cache_type": "hot",
       "command": "pysentry --format json --no-resolver --sources pypi --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 0.02183389663696289,
-        "peak_memory_mb": 7.26953125,
-        "time_min": 0.021800756454467773,
-        "time_stdev": 0.00034129261927007964,
-        "mem_min": 7.13671875,
-        "mem_stdev": 0.1619233684373375,
-        "raw_vulns": 15,
-        "canonical_vulns": 15,
+        "execution_time": 0.011464357376098633,
+        "peak_memory_mb": 7.671875,
+        "time_min": 0.010769128799438477,
+        "time_stdev": 0.0009305881217317118,
+        "mem_min": 7.609375,
+        "mem_stdev": 0.09684821958466118,
+        "raw_vulns": 29,
+        "canonical_vulns": 29,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:31:55.999594"
+      "timestamp": "2026-08-20T20:41:42.036343"
     },
     {
       "config_name": "pysentry-all-sources",
@@ -1118,18 +1118,18 @@
       "cache_type": "hot",
       "command": "pysentry --format json --no-resolver --sources pypa,osv,pypi --no-maintenance-check <path>",
       "metrics": {
-        "execution_time": 0.762251615524292,
-        "peak_memory_mb": 339.0,
-        "time_min": 0.755056619644165,
-        "time_stdev": 0.0064052568716754755,
-        "mem_min": 338.7109375,
-        "mem_stdev": 0.15947358317435759,
-        "raw_vulns": 15,
-        "canonical_vulns": 15,
+        "execution_time": 0.623812198638916,
+        "peak_memory_mb": 353.13671875,
+        "time_min": 0.6179111003875732,
+        "time_stdev": 0.0032499756263763223,
+        "mem_min": 353.0234375,
+        "mem_stdev": 0.058892467717920005,
+        "raw_vulns": 30,
+        "canonical_vulns": 30,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:32:02.919903"
+      "timestamp": "2026-08-20T20:41:48.098573"
     },
     {
       "config_name": "pysentry-pypi-maintenance",
@@ -1139,18 +1139,18 @@
       "cache_type": "hot",
       "command": "pysentry --format json --no-resolver --sources pypi <path>",
       "metrics": {
-        "execution_time": 0.04466986656188965,
-        "peak_memory_mb": 7.40625,
-        "time_min": 0.04083895683288574,
-        "time_stdev": 0.0039650790219863665,
-        "mem_min": 7.0625,
-        "mem_stdev": 0.1838304657468907,
-        "raw_vulns": 15,
-        "canonical_vulns": 15,
+        "execution_time": 0.026881694793701172,
+        "peak_memory_mb": 7.77734375,
+        "time_min": 0.020702600479125977,
+        "time_stdev": 0.008885574161888666,
+        "mem_min": 7.73046875,
+        "mem_stdev": 0.04501518840902479,
+        "raw_vulns": 29,
+        "canonical_vulns": 29,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:32:04.106809"
+      "timestamp": "2026-08-20T20:41:49.664634"
     },
     {
       "config_name": "pip-audit-pypi",
@@ -1160,18 +1160,18 @@
       "cache_type": "hot",
       "command": "pip-audit --format json -s pypi --no-deps --disable-pip --requirement <path>",
       "metrics": {
-        "execution_time": 1.4093143939971924,
-        "peak_memory_mb": 59.96484375,
-        "time_min": 1.4030754566192627,
-        "time_stdev": 0.005003046336196488,
-        "mem_min": 59.484375,
-        "mem_stdev": 0.23399383067288068,
-        "raw_vulns": 16,
-        "canonical_vulns": 15,
+        "execution_time": 0.8896579742431641,
+        "peak_memory_mb": 57.03125,
+        "time_min": 0.8842666149139404,
+        "time_stdev": 0.005202354444233875,
+        "mem_min": 55.62109375,
+        "mem_stdev": 0.8184968746360993,
+        "raw_vulns": 30,
+        "canonical_vulns": 29,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:32:44.402557"
+      "timestamp": "2026-08-20T20:42:05.933083"
     },
     {
       "config_name": "pip-audit-osv",
@@ -1181,22 +1181,22 @@
       "cache_type": "hot",
       "command": "pip-audit --format json -s osv --no-deps --disable-pip --requirement <path>",
       "metrics": {
-        "execution_time": 103.46925067901611,
-        "peak_memory_mb": 58.90234375,
-        "time_min": 101.9005036354065,
-        "time_stdev": 2.2468469177260992,
-        "mem_min": 58.1171875,
-        "mem_stdev": 0.6752990060399865,
-        "raw_vulns": 28,
-        "canonical_vulns": 15,
+        "execution_time": 100.33794093132019,
+        "peak_memory_mb": 56.87890625,
+        "time_min": 85.16622567176819,
+        "time_stdev": 10.75600433135367,
+        "mem_min": 53.08203125,
+        "mem_stdev": 1.683681207850218,
+        "raw_vulns": 49,
+        "canonical_vulns": 30,
         "exit_code": 1,
         "runs": 5
       },
-      "timestamp": "2026-07-30T23:43:09.266524"
+      "timestamp": "2026-08-20T20:51:52.698132"
     }
   ],
-  "start_time": "2026-07-30T22:57:30.608852",
-  "end_time": "2026-07-30T23:43:09.266545",
-  "total_duration": 2738.657693,
-  "pysentry_version": "0.4.9"
+  "start_time": "2026-08-20T20:09:19.020355",
+  "end_time": "2026-08-20T20:51:52.698152",
+  "total_duration": 2553.677797,
+  "pysentry_version": "0.5.0"
 }
